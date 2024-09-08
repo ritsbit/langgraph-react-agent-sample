@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langgraph-react-agent-sample"
+version = "0.1.0"
+description = ""
+authors = ["Ritesh Sharma <riteshsharma.bit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.16"
+langgraph = "^0.2.19"
+langchain-openai = "^0.1.23"
+langchainhub = "^0.1.21"
+isort = "^5.13.2"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
